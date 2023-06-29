@@ -1,0 +1,22 @@
+.link__header {
+    background-color: var(--gray-white);
+    border-radius: 48px;
+    text-decoration: none;
+    color: var(--light-blue);
+    padding: 12px 20px 12px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0.5em;
+   
+}
+
+.link__header:nth-of-type(5) {
+    border: solid 0.5px white;
+    background-color: var(--light-blue);
+    color: var(--gray-white);
+}
+
+.link__header img {
+    margin-left: 0.5em;
+    vertical-align: -39%;
+} 

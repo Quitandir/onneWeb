@@ -1,0 +1,17 @@
+.botao {
+    padding: 12px 24px;
+    border:none;
+    background: var(--light-blue);
+    color:white;
+    border-radius: 50px;
+}
+
+.botao:hover {
+    cursor: pointer;
+}
+
+.botao:nth-of-type(2) {
+    border: solid 0.5px var(--cinzinha);
+    background-color: var(--branco);
+    color: var(--light-blue);
+}

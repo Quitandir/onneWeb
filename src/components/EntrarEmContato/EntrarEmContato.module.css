@@ -1,0 +1,37 @@
+.input__contato {
+    width: 500px;
+    text-align: center;
+    margin: 2em auto;
+}
+
+label {
+    color: var(--cinzao);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+form {
+    margin-top: 2em;
+    display:flex;
+    flex-direction:row;    
+    border: 1px solid var(--cinzinha);  
+    padding: 0.1em 0.1em;    
+    border-radius: 50px;
+  }
+  
+  input {
+    
+    flex-grow:2;    
+    border: none;
+    margin-left: 2em;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  form:focus-within { 
+    outline: 1px solid blue 
+  }
+  

@@ -1,0 +1,19 @@
+.titulo {
+    width: 694px;
+    
+    color: var(--light-blue);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 72px;
+    margin: 60px auto;
+}
+
+.titulo.centro {
+    text-align: center;
+
+}
+
+.titulo.esquerda {
+    text-align: left;
+   
+}
